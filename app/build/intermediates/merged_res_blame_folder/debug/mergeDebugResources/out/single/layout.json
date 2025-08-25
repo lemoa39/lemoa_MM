@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.lemoa.mm.app-mergeDebugResources-38:/layout/activity_main.xml",
+        "source": "com.lemoa.mm.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lemoa.mm.app-mergeDebugResources-38:/layout/fragment_codes.xml",
+        "source": "com.lemoa.mm.app-main-41:/layout/fragment_codes.xml"
+    },
+    {
+        "merged": "com.lemoa.mm.app-mergeDebugResources-38:/layout/fragment_dashboard.xml",
+        "source": "com.lemoa.mm.app-main-41:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.lemoa.mm.app-mergeDebugResources-38:/layout/fragment_settings.xml",
+        "source": "com.lemoa.mm.app-main-41:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.lemoa.mm.app-mergeDebugResources-38:/layout/fragment_logs.xml",
+        "source": "com.lemoa.mm.app-main-41:/layout/fragment_logs.xml"
+    }
+]

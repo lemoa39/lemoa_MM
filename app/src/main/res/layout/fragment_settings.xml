@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reply Template (use {code}, {amount}, {number})" android:textStyle="bold"/>
+    <EditText android:id="@+id/etTemplate" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your code is: {code}" android:layout_marginBottom="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MTN Regex" android:textStyle="bold"/>
+    <EditText android:id="@+id/etRegexMtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint=".*UGX (\d[\d,]*) from (\+?\d{9,12}).*" android:layout_marginBottom="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Airtel Regex" android:textStyle="bold"/>
+    <EditText android:id="@+id/etRegexAirtel" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint=".*UGX (\d[\d,]*) from (\+?\d{9,12}).*" android:layout_marginBottom="8dp"/>
+    <Button android:id="@+id/btnSaveSettings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save"/>
+  </LinearLayout>
+</ScrollView>

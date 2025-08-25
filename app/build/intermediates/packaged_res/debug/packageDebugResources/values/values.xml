@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardBg">#FFFFFFFF</color>
+    <color name="iconTint">#6A6A6A</color>
+    <color name="lemoaBlue">#177EFB</color>
+    <color name="lemoaGradientEnd">#22C1A0</color>
+    <color name="lemoaGradientStart">#1A8FE3</color>
+    <color name="lemoaGreen">#1FD1A1</color>
+    <style name="Theme.LemoaMM" parent="Theme.Material3.Light.NoActionBar"/>
+</resources>
